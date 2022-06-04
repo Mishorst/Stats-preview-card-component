@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://your-solution-url.com)
+- Solution URL: [Github](https://github.com/Mishorst/Stats-preview-card-component)
 - Live Site URL: [Site](https://stats-preview-card-component-misho.netlify.app/)
 
 ## My process
