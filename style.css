@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: hsl(233, 47%, 7%);
+  height: 100vh;
+}
+
+/************************/
+/* FLEXBOX */
+/************************/
+
+.desktop {
+  width: 111rem;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.component {
+  display: flex;
+  gap: 5rem;
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.bot-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7.4rem;
+  padding-right: 4rem;
+}
+
+.text-box {
+  padding: 7.2rem 6rem 0 7.3rem;
+}
+
+/************************/
+/* TEXT */
+/************************/
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 3.6rem;
+  margin-bottom: 2.6rem;
+}
+
+.text {
+  font-size: 1.5rem;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.6;
+}
+
+.bot-num {
+  color: hsl(0, 0%, 100%);
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin-bottom: 0.9rem;
+}
+
+.bot-text {
+  font-family: "Lexend Deca", sans-serif;
+  text-transform: uppercase;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 1.2rem;
+  letter-spacing: 0.9px;
+}
+
+.colored-text {
+  color: hsl(277, 64%, 61%);
+}
+
+/************************/
+/* IMAGE */
+/************************/
+
+.img {
+  opacity: 39%;
+}
+
+.img-box {
+  background-image: linear-gradient(
+      to bottom,
+      hsl(277, 64%, 36%),
+      hsl(278, 64%, 26%)
+    ),
+    url("/Resources/images/image-header-desktop.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/************************/
+/* FOOTER */
+/************************/
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
